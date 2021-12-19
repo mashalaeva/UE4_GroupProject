@@ -4595,3 +4595,524 @@ Script call stack:
 [2021.12.19-15.23.01:698][534]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
 [2021.12.19-15.23.01:721][535]LogPlayLevel: Display: Destroying online subsystem :Context_80
 [2021.12.19-15.23.12:080][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.12.19-15.26.17:279][699]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2021.12.19-15.26.17:430][699]LogScript: Warning: Script Msg: Divide by zero detected: -140.000183 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.26.17:463][699]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SurfaceWalking/Maps/StartAsteroid/Start_Asteroid.Start_Asteroid
+[2021.12.19-15.26.17:463][699]LightingResults: New page: Lighting Build
+[2021.12.19-15.26.17:463][699]LoadErrors: New page: Loading map: Start_Asteroid.umap
+[2021.12.19-15.26.17:470][699]LogWorld: UWorld::CleanupWorld for MarsMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.26.17:470][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.26.17:471][699]MapCheck: New page: Map Check
+[2021.12.19-15.26.17:471][699]LightingResults: New page: Lighting Build
+[2021.12.19-15.26.17:561][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.26.17:586][699]LogUObjectHash: Compacting FUObjectHashTables data took   8.89ms
+[2021.12.19-15.26.17:588][699]LogAudio: Display: Audio Device (ID: 1) registered with world 'Start_Asteroid'.
+[2021.12.19-15.26.17:596][699]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.26.17:679][699]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.19-15.26.17:679][699]LogAIModule: Creating AISystem for world Start_Asteroid
+[2021.12.19-15.26.17:763][699]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2021.12.19-15.26.17:770][699]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.19-15.26.17:770][699]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,131ms to complete.
+[2021.12.19-15.26.17:770][699]LogFileHelpers: Loading map 'Start_Asteroid' took 0.307
+[2021.12.19-15.26.19:754][734]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.12.19-15.26.19:772][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-15.26.19:772][734]PIE: New page: PIE session: Start_Asteroid (19 дек. 2021 г., 21:26:19)
+[2021.12.19-15.26.19:772][734]LogPlayLevel: Creating play world package: /Game/SurfaceWalking/Maps/StartAsteroid/UEDPIE_0_Start_Asteroid
+[2021.12.19-15.26.19:796][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023285s)
+[2021.12.19-15.26.19:798][734]LogAIModule: Creating AISystem for world Start_Asteroid
+[2021.12.19-15.26.19:800][734]LogPlayLevel: PIE: World Init took: (0.002924s)
+[2021.12.19-15.26.19:800][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfaceWalking/Maps/StartAsteroid/Start_Asteroid.Start_Asteroid to /Game/SurfaceWalking/Maps/StartAsteroid/UEDPIE_0_Start_Asteroid.Start_Asteroid (0.026592s)
+[2021.12.19-15.26.19:926][734]LogUObjectHash: Compacting FUObjectHashTables data took  10.27ms
+[2021.12.19-15.26.19:927][734]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-15.26.19:927][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-15.26.19:927][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-15.26.19:929][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.19-15.26.19:929][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.19-15.26.19:929][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.19-15.26.19:929][734]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-15.26.19:939][734]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-15.26.19:939][734]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-15.26.20:065][734]LogAudioMixer: Display: Using Audio Device Громкоговоритель и наушники (Realtek(R) Audio)
+[2021.12.19-15.26.20:065][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-15.26.20:065][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-15.26.20:065][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-15.26.20:066][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.19-15.26.20:066][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-15.26.20:066][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-15.26.20:067][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-15.26.20:067][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-15.26.20:068][734]LogInit: FAudioDevice initialized.
+[2021.12.19-15.26.20:068][734]LogAudio: Display: Audio Device (ID: 24) registered with world 'Start_Asteroid'.
+[2021.12.19-15.26.20:101][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-15.26.20:101][734]LogLoad: Game class is 'BP_SurfaceWalkingGameMode_C'
+[2021.12.19-15.26.20:106][734]LogScript: Warning: Script Msg: Divide by zero detected: -140.000183 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.26.20:109][734]LogWorld: Bringing World /Game/SurfaceWalking/Maps/StartAsteroid/UEDPIE_0_Start_Asteroid.Start_Asteroid up for play (max tick rate 60) at 2021.12.19-18.26.20
+[2021.12.19-15.26.20:110][734]LogWorld: Bringing up level for play took: 0.007243
+[2021.12.19-15.26.20:110][734]LogOnline: OSS: Creating online subsystem instance for: :Context_81
+[2021.12.19-15.26.20:112][734]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.26.20:113][734]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.26.20:113][734]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.26.20:115][734]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.26.20:117][734]PIE: Server logged in
+[2021.12.19-15.26.20:119][734]PIE: Play in editor total start time 0,35 seconds.
+[2021.12.19-15.26.22:098][774]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.12.19-15.26.22:101][774]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonMorigesh/Characters/Heroes/Morigesh/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.12.19-15.26.23:470][802]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2021.12.19-15.26.23:470][802]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.12.19-15.26.23:903][812]LogViewport: Display: Viewport MouseLockMode Changed, LockAlways -> LockOnCapture
+[2021.12.19-15.26.23:903][812]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.12.19-15.26.54:131][453]LogScript: Warning: Attempted to access missing property 'none'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	MorigeshPlayerCharacter_C /Game/SurfaceWalking/Maps/StartAsteroid/UEDPIE_0_Start_Asteroid.Start_Asteroid:PersistentLevel.MorigeshPlayerCharacter_2
+	Function /Game/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.MorigeshPlayerCharacter_C:ExecuteUbergraph_MorigeshPlayerCharacter:0636
+[2021.12.19-15.26.54:132][453]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'none'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  MorigeshPlayerCharacter Function:  Execute Ubergraph Morigesh Player Character Graph:  EventGraph Node:  Set GeneralInventoryComponent
+[2021.12.19-15.26.54:132][453]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MorigeshPlayerCharacter_C /Game/SurfaceWalking/Maps/StartAsteroid/UEDPIE_0_Start_Asteroid.Start_Asteroid:PersistentLevel.MorigeshPlayerCharacter_2
+	Function /Game/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.MorigeshPlayerCharacter_C:ExecuteUbergraph_MorigeshPlayerCharacter:0636
+[2021.12.19-15.26.54:132][453]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  MorigeshPlayerCharacter Function:  Execute Ubergraph Morigesh Player Character Graph:  EventGraph Node:  Set GeneralInventoryComponent
+[2021.12.19-15.27.16:276][944]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2021.12.19-15.27.16:277][944]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2021.12.19-15.27.18:407][994]LogViewport: Display: Viewport MouseLockMode Changed, LockAlways -> LockOnCapture
+[2021.12.19-15.27.18:407][994]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.12.19-15.27.58:790][928]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.27.58:790][928]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.27.58:791][928]LogNet: Browse: /Game/SpaceWalking/Maps/Space
+[2021.12.19-15.27.58:791][928]LogLoad: LoadMap: /Game/SpaceWalking/Maps/Space
+[2021.12.19-15.27.58:791][928]LogWorld: BeginTearingDown for /Game/SurfaceWalking/Maps/StartAsteroid/UEDPIE_0_Start_Asteroid
+[2021.12.19-15.27.58:793][928]LogWorld: UWorld::CleanupWorld for Start_Asteroid, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.27.58:794][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.27.58:893][928]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.27.58:927][928]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2021.12.19-15.27.59:324][928]LogAudio: Display: Audio Device (ID: 24) registered with world 'Space'.
+[2021.12.19-15.27.59:325][928]LogAIModule: Creating AISystem for world Space
+[2021.12.19-15.27.59:326][928]LogLoad: Game class is 'BP_SpaceGameMode_C'
+[2021.12.19-15.27.59:371][928]LogWorld: Bringing World /Game/SpaceWalking/Maps/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2021.12.19-18.27.59
+[2021.12.19-15.27.59:372][928]LogWorld: Bringing up level for play took: 0.044488
+[2021.12.19-15.27.59:373][928]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.27.59:373][928]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.27.59:373][928]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.27.59:374][928]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.27.59:374][928]LogLoad: Took 0.582213 seconds to LoadMap(/Game/SpaceWalking/Maps/Space)
+[2021.12.19-15.28.42:513][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-15.28.42:513][221]LogWorld: BeginTearingDown for /Game/SpaceWalking/Maps/UEDPIE_0_Space
+[2021.12.19-15.28.42:514][221]LogSlate: Window 'SeriousHedgehogsGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.12.19-15.28.42:540][221]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.28.42:541][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.28.42:561][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-15.28.42:580][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.28.42:708][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-15.28.42:711][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-15.28.42:762][221]LogUObjectHash: Compacting FUObjectHashTables data took   9.61ms
+[2021.12.19-15.28.42:937][222]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2021.12.19-15.28.48:982][330]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.MorigeshPlayerCharacter
+[2021.12.19-15.28.49:603][330]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.29.08:356][773]LogSlate: Window 'Message Log' being destroyed
+[2021.12.19-15.29.08:406][773]LogSlate: Window 'Message Log' being destroyed
+[2021.12.19-15.29.16:150][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2021.12.19-15.29.17:438][  0]LogSlate: Window 'Save Content' being destroyed
+[2021.12.19-15.29.17:605][  0]LogSavePackage: Moving '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Saved/MorigeshPlayerCharacter49BD15AF45B3A9AD23A8EDAC8661E045.tmp' to '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Content/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.uasset'
+[2021.12.19-15.29.17:760][  0]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SurfaceWalking/Maps/Earth/EarthMap.EarthMap
+[2021.12.19-15.29.17:760][  0]Cmd: MAP LOAD FILE="../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Content/SurfaceWalking/Maps/Earth/EarthMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.19-15.29.17:760][  0]LightingResults: New page: Lighting Build
+[2021.12.19-15.29.17:760][  0]LoadErrors: New page: Loading map: EarthMap.umap
+[2021.12.19-15.29.17:765][  0]LogWorld: UWorld::CleanupWorld for Start_Asteroid, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.29.17:765][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.29.17:766][  0]MapCheck: New page: Map Check
+[2021.12.19-15.29.17:766][  0]LightingResults: New page: Lighting Build
+[2021.12.19-15.29.17:838][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.29.17:850][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2021.12.19-15.29.17:851][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'EarthMap'.
+[2021.12.19-15.29.17:931][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.19-15.29.17:932][  0]LogAIModule: Creating AISystem for world EarthMap
+[2021.12.19-15.29.18:016][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2021.12.19-15.29.18:022][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.19-15.29.18:023][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,255ms to complete.
+[2021.12.19-15.29.18:023][  0]LogFileHelpers: Loading map 'EarthMap' took 0.263
+[2021.12.19-15.29.18:070][  0]AssetCheck: New page: Asset Save: MorigeshPlayerCharacter
+[2021.12.19-15.29.18:071][  0]LogContentValidation: Display: Validating Blueprint /Game/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.MorigeshPlayerCharacter
+[2021.12.19-15.29.20:916][ 68]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.12.19-15.29.20:934][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.19-15.29.20:934][ 68]PIE: New page: PIE session: EarthMap (19 дек. 2021 г., 21:29:20)
+[2021.12.19-15.29.20:934][ 68]LogPlayLevel: Creating play world package: /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap
+[2021.12.19-15.29.20:982][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046942s)
+[2021.12.19-15.29.20:984][ 68]LogAIModule: Creating AISystem for world EarthMap
+[2021.12.19-15.29.20:984][ 68]LogPlayLevel: PIE: World Init took: (0.002422s)
+[2021.12.19-15.29.20:984][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfaceWalking/Maps/Earth/EarthMap.EarthMap to /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap (0.049672s)
+[2021.12.19-15.29.21:093][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2021.12.19-15.29.21:096][ 68]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.19-15.29.21:096][ 68]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.19-15.29.21:096][ 68]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.19-15.29.21:097][ 68]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.19-15.29.21:097][ 68]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.19-15.29.21:097][ 68]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.19-15.29.21:097][ 68]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.19-15.29.21:105][ 68]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.19-15.29.21:105][ 68]LogAudioMixer: Display: 1: FrontRight
+[2021.12.19-15.29.21:223][ 68]LogAudioMixer: Display: Using Audio Device Громкоговоритель и наушники (Realtek(R) Audio)
+[2021.12.19-15.29.21:224][ 68]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.19-15.29.21:224][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.19-15.29.21:224][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.19-15.29.21:225][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.19-15.29.21:225][ 68]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.19-15.29.21:225][ 68]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.19-15.29.21:227][ 68]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.19-15.29.21:228][ 68]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.19-15.29.21:228][ 68]LogInit: FAudioDevice initialized.
+[2021.12.19-15.29.21:228][ 68]LogAudio: Display: Audio Device (ID: 25) registered with world 'EarthMap'.
+[2021.12.19-15.29.21:264][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-15.29.21:264][ 68]LogLoad: Game class is 'BP_SurfaceWalkingGameMode_C'
+[2021.12.19-15.29.21:274][ 68]LogWorld: Bringing World /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap up for play (max tick rate 60) at 2021.12.19-18.29.21
+[2021.12.19-15.29.21:276][ 68]LogWorld: Bringing up level for play took: 0.008906
+[2021.12.19-15.29.21:276][ 68]LogOnline: OSS: Creating online subsystem instance for: :Context_83
+[2021.12.19-15.29.21:280][ 68]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.29.21:281][ 68]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.29.21:281][ 68]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.29.21:285][ 68]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.29.21:289][ 68]PIE: Server logged in
+[2021.12.19-15.29.21:292][ 68]PIE: Play in editor total start time 0,361 seconds.
+[2021.12.19-15.29.23:295][126]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.12.19-15.30.00:100][219]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.30.00:100][219]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.30.00:101][219]LogNet: Browse: /Game/SpaceWalking/Maps/Space
+[2021.12.19-15.30.00:101][219]LogLoad: LoadMap: /Game/SpaceWalking/Maps/Space
+[2021.12.19-15.30.00:101][219]LogWorld: BeginTearingDown for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap
+[2021.12.19-15.30.00:102][219]LogWorld: UWorld::CleanupWorld for EarthMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.30.00:103][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.30.00:219][219]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.30.00:232][219]LogUObjectHash: Compacting FUObjectHashTables data took   8.22ms
+[2021.12.19-15.30.00:719][219]LogAudio: Display: Audio Device (ID: 25) registered with world 'Space'.
+[2021.12.19-15.30.00:720][219]LogAIModule: Creating AISystem for world Space
+[2021.12.19-15.30.00:721][219]LogLoad: Game class is 'BP_SpaceGameMode_C'
+[2021.12.19-15.30.00:780][219]LogWorld: Bringing World /Game/SpaceWalking/Maps/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2021.12.19-18.30.00
+[2021.12.19-15.30.00:781][219]LogWorld: Bringing up level for play took: 0.059232
+[2021.12.19-15.30.00:783][219]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.30.00:783][219]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.30.00:783][219]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.30.00:784][219]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.30.00:784][219]LogLoad: Took 0.683406 seconds to LoadMap(/Game/SpaceWalking/Maps/Space)
+[2021.12.19-15.30.15:404][657]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.30.15:404][657]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.30.15:405][657]LogNet: Browse: /Game/SurfaceWalking/Maps/Mars/MarsMap
+[2021.12.19-15.30.15:405][657]LogLoad: LoadMap: /Game/SurfaceWalking/Maps/Mars/MarsMap
+[2021.12.19-15.30.15:405][657]LogWorld: BeginTearingDown for /Game/SpaceWalking/Maps/UEDPIE_0_Space
+[2021.12.19-15.30.15:406][657]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.30.15:407][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.30.15:514][657]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.30.15:546][657]LogUObjectHash: Compacting FUObjectHashTables data took   8.07ms
+[2021.12.19-15.30.15:618][657]LogAudio: Display: Audio Device (ID: 25) registered with world 'MarsMap'.
+[2021.12.19-15.30.15:620][657]LogAIModule: Creating AISystem for world MarsMap
+[2021.12.19-15.30.15:620][657]LogLoad: Game class is 'BP_SurfaceWalkingGameMode_C'
+[2021.12.19-15.30.15:639][657]LogWorld: Bringing World /Game/SurfaceWalking/Maps/Mars/UEDPIE_0_MarsMap.MarsMap up for play (max tick rate 60) at 2021.12.19-18.30.15
+[2021.12.19-15.30.15:639][657]LogWorld: Bringing up level for play took: 0.016722
+[2021.12.19-15.30.15:640][657]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.30.15:640][657]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.30.15:640][657]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.30.15:645][657]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.30.15:645][657]LogLoad: Took 0.239783 seconds to LoadMap(/Game/SurfaceWalking/Maps/Mars/MarsMap)
+[2021.12.19-15.30.17:743][716]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.12.19-15.30.55:271][751]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.30.55:271][751]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.30.55:272][751]LogNet: Browse: /Game/SpaceWalking/Maps/Space
+[2021.12.19-15.30.55:272][751]LogLoad: LoadMap: /Game/SpaceWalking/Maps/Space
+[2021.12.19-15.30.55:272][751]LogWorld: BeginTearingDown for /Game/SurfaceWalking/Maps/Mars/UEDPIE_0_MarsMap
+[2021.12.19-15.30.55:274][751]LogWorld: UWorld::CleanupWorld for MarsMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.30.55:275][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.30.55:386][751]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.30.55:418][751]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.12.19-15.30.55:829][751]LogAudio: Display: Audio Device (ID: 25) registered with world 'Space'.
+[2021.12.19-15.30.55:831][751]LogAIModule: Creating AISystem for world Space
+[2021.12.19-15.30.55:831][751]LogLoad: Game class is 'BP_SpaceGameMode_C'
+[2021.12.19-15.30.55:883][751]LogWorld: Bringing World /Game/SpaceWalking/Maps/UEDPIE_0_Space.Space up for play (max tick rate 60) at 2021.12.19-18.30.55
+[2021.12.19-15.30.55:884][751]LogWorld: Bringing up level for play took: 0.051707
+[2021.12.19-15.30.55:885][751]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.30.55:885][751]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.30.55:885][751]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.30.55:886][751]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.30.55:886][751]LogLoad: Took 0.614370 seconds to LoadMap(/Game/SpaceWalking/Maps/Space)
+[2021.12.19-15.31.08:572][130]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.31.08:573][130]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.12.19-15.31.08:573][130]LogNet: Browse: /Game/SurfaceWalking/Maps/Earth/EarthMap
+[2021.12.19-15.31.08:573][130]LogLoad: LoadMap: /Game/SurfaceWalking/Maps/Earth/EarthMap
+[2021.12.19-15.31.08:573][130]LogWorld: BeginTearingDown for /Game/SpaceWalking/Maps/UEDPIE_0_Space
+[2021.12.19-15.31.08:575][130]LogWorld: UWorld::CleanupWorld for Space, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.31.08:576][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.31.08:684][130]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.31.08:707][130]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2021.12.19-15.31.08:712][130]LogPlayLevel: Creating play world package: /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap
+[2021.12.19-15.31.08:733][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021789s)
+[2021.12.19-15.31.08:734][130]LogAIModule: Creating AISystem for world EarthMap
+[2021.12.19-15.31.08:735][130]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2021.12.19-15.31.08:735][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SurfaceWalking/Maps/Earth/EarthMap.EarthMap to /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap (0.023374s)
+[2021.12.19-15.31.08:735][130]LogAudio: Display: Audio Device (ID: 25) registered with world 'EarthMap'.
+[2021.12.19-15.31.08:735][130]LogLoad: Game class is 'BP_SurfaceWalkingGameMode_C'
+[2021.12.19-15.31.08:737][130]LogWorld: Bringing World /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap up for play (max tick rate 60) at 2021.12.19-18.31.08
+[2021.12.19-15.31.08:738][130]LogWorld: Bringing up level for play took: 0.002382
+[2021.12.19-15.31.08:740][130]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.31.08:740][130]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.19-15.31.08:740][130]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.31.08:743][130]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.19-15.31.08:743][130]LogLoad: Took 0.169976 seconds to LoadMap(/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap)
+[2021.12.19-15.31.10:926][194]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonLtBelica/Characters/Heroes/Belica/Animations/LevelStart_Montage.LevelStart_Montage'
+[2021.12.19-15.31.23:173][559]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2021.12.19-15.31.23:173][559]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.12.19-15.31.42:818][145]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.42:818][145]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_0.Sphere' 
+[2021.12.19-15.31.42:819][145]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.42:819][145]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_0.StaticMesh' 
+[2021.12.19-15.31.42:820][145]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_0.StaticMesh1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.42:820][145]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_0.StaticMesh1' 
+[2021.12.19-15.31.43:786][174]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_0.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.43:786][174]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_0.Sphere' 
+[2021.12.19-15.31.43:786][174]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.43:786][174]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_0.StaticMesh' 
+[2021.12.19-15.31.46:285][249]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_1.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.46:285][249]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_1.Sphere' 
+[2021.12.19-15.31.46:286][249]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_1.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.46:286][249]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_Meat_C_1.StaticMesh' 
+[2021.12.19-15.31.47:385][282]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_1.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:385][282]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_1.Sphere' 
+[2021.12.19-15.31.47:386][282]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_1.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:386][282]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_1.StaticMesh' 
+[2021.12.19-15.31.47:387][282]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_1.StaticMesh1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:387][282]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_1.StaticMesh1' 
+[2021.12.19-15.31.47:684][291]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_2.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:684][291]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_2.Sphere' 
+[2021.12.19-15.31.47:684][291]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:684][291]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_2.StaticMesh' 
+[2021.12.19-15.31.47:685][291]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_2.StaticMesh1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:685][291]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_2.StaticMesh1' 
+[2021.12.19-15.31.47:918][298]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_3.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:919][298]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_3.Sphere' 
+[2021.12.19-15.31.47:919][298]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_3.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:919][298]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_3.StaticMesh' 
+[2021.12.19-15.31.47:920][298]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_3.StaticMesh1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.47:920][298]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_3.StaticMesh1' 
+[2021.12.19-15.31.48:151][305]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_4.Sphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.48:151][305]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_4.Sphere' 
+[2021.12.19-15.31.48:152][305]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_4.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.48:152][305]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_4.StaticMesh' 
+[2021.12.19-15.31.48:153][305]LogPhysics: Warning: Scale for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_4.StaticMesh1 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.12.19-15.31.48:153][305]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap.EarthMap:PersistentLevel.Item_HealthPotion_C_4.StaticMesh1' 
+[2021.12.19-15.31.48:285][309]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2021.12.19-15.31.48:285][309]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	InventorySlot_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_23.InventoryWindow_C_0.WidgetTree.InventorySlot_C_1
+	Function /Game/SurfaceWalking/Inventory/UI/InventorySlot.InventorySlot_C:OnMouseButtonDown:01FB
+[2021.12.19-15.31.48:285][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  InventorySlot Function:  On Mouse Button Down Graph:  OnMouseButtonDown Node:  Use Item
+[2021.12.19-15.31.48:285][309]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	InventorySlot_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_23.InventoryWindow_C_0.WidgetTree.InventorySlot_C_1
+	Function /Game/SurfaceWalking/Inventory/UI/InventorySlot.InventorySlot_C:OnMouseButtonDown:0233
+[2021.12.19-15.31.48:285][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  InventorySlot Function:  On Mouse Button Down Graph:  OnMouseButtonDown Node:  DestroyActor
+[2021.12.19-15.31.52:283][429]LogViewport: Display: Viewport MouseLockMode Changed, LockAlways -> LockOnCapture
+[2021.12.19-15.31.52:284][429]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.12.19-15.31.58:904][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.19-15.31.58:904][625]LogWorld: BeginTearingDown for /Game/SurfaceWalking/Maps/Earth/UEDPIE_0_EarthMap
+[2021.12.19-15.31.58:906][625]LogSlate: Window 'SeriousHedgehogsGame Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.12.19-15.31.58:941][625]LogWorld: UWorld::CleanupWorld for EarthMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.31.58:943][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.31.58:966][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.19-15.31.58:983][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.31.59:099][625]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.19-15.31.59:100][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-15.31.59:102][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.19-15.31.59:120][625]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2021.12.19-15.31.59:282][626]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2021.12.19-15.32.19:686][977]LogSlate: Window 'Message Log' being destroyed
+[2021.12.19-15.32.19:753][977]LogSlate: Window 'Message Log' being destroyed
+[2021.12.19-15.34.08:728][201]BlueprintLog: New page: Compile InventorySlot
+[2021.12.19-15.34.08:830][201]LogUObjectHash: Compacting FUObjectHashTables data took   8.23ms
+[2021.12.19-15.34.09:850][217]LogSavePackage: Moving '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Saved/InventorySlotF6114E4F46DBE7C0271734AE8B230601.tmp' to '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Content/SurfaceWalking/Inventory/UI/InventorySlot.uasset'
+[2021.12.19-15.34.09:934][217]AssetCheck: New page: Asset Save: InventorySlot
+[2021.12.19-15.34.09:934][217]LogContentValidation: Display: Validating WidgetBlueprint /Game/SurfaceWalking/Inventory/UI/InventorySlot.InventorySlot
+[2021.12.19-15.34.21:374][510]LogSlate: Window 'Message Log' being destroyed
+[2021.12.19-15.34.21:425][510]LogSlate: Window 'Message Log' being destroyed
+[2021.12.19-15.34.25:813][692]BlueprintLog: New page: Compile MorigeshPlayerCharacter
+[2021.12.19-15.34.25:823][692]LogBlueprint: Warning: [AssetLog] D:\Git UE4 final FinalProject\UE4_GroupProject\SeriousHedgehogsGame\Content\SurfaceWalking\Pawns\AI_Morigesh\MorigeshPlayerCharacter.uasset: [Compiler] Could not find a variable named "GeneralInventoryComponent" in 'BP_GameInstance_C'.
+Make sure 'BP_GameInstance_C' has been compiled for  Set GeneralInventoryComponent
+[2021.12.19-15.34.25:827][692]LogBlueprint: Error: [AssetLog] D:\Git UE4 final FinalProject\UE4_GroupProject\SeriousHedgehogsGame\Content\SurfaceWalking\Pawns\AI_Morigesh\MorigeshPlayerCharacter.uasset: [Compiler] The property associated with  General Inventory Component  could not be found in '/Game/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.MorigeshPlayerCharacter_C'
+[2021.12.19-15.34.25:838][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:842][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:844][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:848][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:851][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:855][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:987][692]LogUObjectHash: Compacting FUObjectHashTables data took   7.91ms
+[2021.12.19-15.34.25:993][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:996][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.25:999][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.26:002][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.26:031][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.26:034][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.26:036][692]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.34.33:346][933]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.19-15.34.33:346][933]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.19-15.36.48:842][751]BlueprintLog: New page: Compile MorigeshPlayerCharacter
+[2021.12.19-15.36.48:865][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.48:868][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.48:871][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.48:874][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.48:876][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.48:879][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:041][751]LogUObjectHash: Compacting FUObjectHashTables data took  11.86ms
+[2021.12.19-15.36.49:055][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:061][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:066][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:069][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:104][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:107][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.49:110][751]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonMorigesh/Characters/Heroes/Morigesh/Morigesh_AnimBlueprint.Morigesh_AnimBlueprint_C:ExecuteUbergraph_Morigesh_AnimBlueprint
+
+[2021.12.19-15.36.50:209][776]LogSavePackage: Moving '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Saved/MorigeshPlayerCharacter4874BFF641F7F462ADA45C815D86FECC.tmp' to '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Content/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.uasset'
+[2021.12.19-15.36.50:252][776]AssetCheck: New page: Asset Save: MorigeshPlayerCharacter
+[2021.12.19-15.36.50:252][776]LogContentValidation: Display: Validating Blueprint /Game/SurfaceWalking/Pawns/AI_Morigesh/MorigeshPlayerCharacter.MorigeshPlayerCharacter
+[2021.12.19-15.36.53:991][914]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.36.53:991][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.36.56:908][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.19-15.36.56:908][ 39]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.36.56:908][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.37.00:133][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.19-15.37.00:133][151]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.37.00:133][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.37.10:392][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.19-15.37.10:392][425]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.37.10:392][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.37.11:972][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.19-15.37.11:972][458]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.37.11:972][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.37.21:271][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.19-15.37.21:271][943]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2021.12.19-15.37.21:271][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.19-15.38.00:932][620]BlueprintLog: New page: Compile BP_SurfaceWalkingPlayerController
+[2021.12.19-15.38.01:107][620]LogUObjectHash: Compacting FUObjectHashTables data took   9.97ms
+[2021.12.19-15.38.01:851][633]LogSavePackage: Moving '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Saved/BP_SurfaceWalkingPlayerControlle3C5CE14C48F254CA069C7594FA5A0F34.tmp' to '../../../../../../Git UE4 final FinalProject/UE4_GroupProject/SeriousHedgehogsGame/Content/SurfaceWalking/Pawns/Character/BP_SurfaceWalkingPlayerController.uasset'
+[2021.12.19-15.38.01:904][633]AssetCheck: New page: Asset Save: BP_SurfaceWalkingPlayerController
+[2021.12.19-15.38.01:904][633]LogContentValidation: Display: Validating Blueprint /Game/SurfaceWalking/Pawns/Character/BP_SurfaceWalkingPlayerController.BP_SurfaceWalkingPlayerController
